@@ -25,7 +25,7 @@ Loop, 1
 
     Sleep, 250  ; Added sleep as they are needed or else script wont work correctly
  
-    Send, {Up}{Esc} ; Selecting dropdown box up then escaping ONLY WORKS AS OCULUS DEB TOOL IS SET TO AUTO EVERY TIME YOU START IT
+    Send {Down 2}{Esc} ; Selecting dropdown box up then escaping ONLY WORKS AS OCULUS DEB TOOL IS SET TO AUTO EVERY TIME YOU START IT
 
      ; MsgBox, Activated Oculus Debug Tool Window
 
